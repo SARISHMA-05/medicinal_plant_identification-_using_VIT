@@ -40,12 +40,12 @@ Note: Dataset files are not included in this repository due to size limitations.
 
 # Technologies Used
 
-Python
-PyTorch
-Google Colab
-NumPy
-Pandas
-Matplotlib
+Python,
+PyTorch,
+Google Colab,
+NumPy,
+Pandas,
+Matplotlib,
 Scikit-learn
 
 # Installation
@@ -70,11 +70,11 @@ If running locally:
 python train.py
 Performance Evaluation
 The model is evaluated using:
-Accuracy
-Precision
-Recall
-F1-score
-Confusion Matrix
+Accuracy,
+Precision,
+Recall,
+F1-score,
+Confusion Matrix.
 
 The Vision Transformer model demonstrates strong generalization capability on unseen leaf samples.
 
