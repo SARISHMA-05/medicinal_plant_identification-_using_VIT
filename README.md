@@ -9,8 +9,11 @@ The system is designed to achieve high classification accuracy while maintaining
 # Objectives
 
 Develop an automated plant species recognition system
+
 Use Vision Transformer for feature extraction and classification
+
 Improve classification accuracy on complex leaf datasets
+
 Evaluate model performance using training, validation, and testing splits
 
 # Model Architecture
@@ -20,11 +23,17 @@ The core component of the system is the Vision Transformer (ViT) model.
 # Workflow:
 
 Input leaf image
+
 Image is divided into fixed-size patches
+
 Patch embeddings are generated
+
 Positional embeddings are added
+
 Transformer encoder layers process global relationships
+
 Classification token output is passed through a Softmax layer
+
 Final plant species prediction is produced
 
 # Dataset
@@ -61,8 +70,11 @@ pip install -r requirements.txt
 If using Google Colab:
 
 Upload the notebook
+
 Mount Google Drive
+
 Update dataset path
+
 Run all cells
 
 If running locally:
@@ -81,19 +93,23 @@ The Vision Transformer model demonstrates strong generalization capability on un
 # Results
 
 The proposed system achieves high classification accuracy and effectively captures long-range dependencies in leaf structures.
-(Insert your final accuracy here, for example: The model achieved 94.3% test accuracy.)
+( The model achieved 97.3% test accuracy.)
 
 # Future Work
 
-Expand dataset with additional plant species
-Apply advanced data augmentation techniques
+Expand dataset with additional plant species,
+Apply advanced data augmentation techniques,
 Deploy model as a web or mobile application
 
 # Authors
 
 Sarishma.ch
+
 Divya.ch
+
 DurgaBhavani.k
+
 Abhishek.p
+
 B.Tech Final Year Project
 Deep Learning Based Plant Identification System
