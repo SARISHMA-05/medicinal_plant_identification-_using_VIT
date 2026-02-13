@@ -1,4 +1,4 @@
-# medicinal_plant_identification-_using_VIT
+# medicinal-plant-identification-using-VIT
 
 # Overview
 
